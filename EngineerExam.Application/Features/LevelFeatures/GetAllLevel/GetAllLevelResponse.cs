@@ -1,8 +1,4 @@
-﻿using AutoMapper;
-using EngineerExam.Application.Repositories;
-using MediatR;
-
-namespace EngineerExam.Application.Features.LevelFeatures.GetAllLevel;
+﻿namespace EngineerExam.Application.Features.LevelFeatures.GetAllLevel;
 
 
 public sealed record GetAllLevelResponse
