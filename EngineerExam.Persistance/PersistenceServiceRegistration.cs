@@ -19,7 +19,7 @@ namespace EngineerExam.Persistance
 
 
             services.AddDbContext<EngineerExamContext>(options =>
-                              options.UseSqlServer(configuration.GetConnectionString("SqlServer")));
+                              options.UseSqlServer(configuration.GetConnectionString("SqlServercnn")));
 
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
