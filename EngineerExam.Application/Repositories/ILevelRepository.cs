@@ -9,6 +9,7 @@ namespace EngineerExam.Application.Repositories
 {
     public interface ILevelRepository : IBaseRepository<Level>
     {
-        Task<Level> GetByEmail(string email, CancellationToken cancellationToken);
+        Task<Level> GetById(Guid id, CancellationToken cancellationToken);
+        Task<List<Level>> GetByTitle(string title, CancellationToken cancellationToken);
     }
 }
